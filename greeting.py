@@ -1,7 +1,9 @@
 name = input("please enter your name")
 Day = input("enter the current day of the week")
 
-print(f'Hello!{name} Happy{Day}')
+print(f'Hello!{name} Happy{Day} enjoy your day')
+
+# feedback
 
 
 def get_feedback():
