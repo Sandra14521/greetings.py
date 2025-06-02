@@ -3,9 +3,8 @@ Day = input("enter the current day of the week")
 
 print(f'Hello!{name} Happy{Day}')
 
-feedback = input("please tell us your experience")
 
-if feedback == "":
-    print("please put a response")
-else:
-    print("thank you for your feedback")
+def get_feedback():
+    feedback = input("how was your experience?")
+    print("thank you for your feedback.")
+    get_feedback()
